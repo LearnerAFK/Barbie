@@ -1,7 +1,7 @@
 {
   "name": "Barbie",
-  "description": "A Telegram Management And Music Player Bot Written In Python Using Pyrogram",
-  "keywords": ["python3", "telegram", "bot", "MusicBot", "Barbie"],
+  "description": "A Telegram Music Player Bot Written In Python Using Pyrogram",
+  "keywords": ["python3", "telegram", "bot", "MusicBot"],
   "env": {
     "API_ID": {
       "description": "Get This Value From https://my.telegram.org",
@@ -16,6 +16,11 @@
     "BOT_TOKEN": {
       "description": "A Bot's Token From Telegram @botfather",
       "value": "",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "Fill your group's link if you have group",
+      "value": "https://t.me/LearnerPrivate",
       "required": true
     },
     "MONGO_DB": {

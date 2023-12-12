@@ -1,5 +1,5 @@
 <h2>
-    MADE BY [@LearnerAFK](https://telegram.dog/LearnerAFK)
+    <p align="center"><a href="https://telegram.me/LearnerAFK">@LearnerAFK</a></p>
 </h2>
     
 <h3 align="center">

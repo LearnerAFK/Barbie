@@ -1,5 +1,5 @@
 <h2>
-    <p align="center"><a href="https://telegram.me/LearnerAFK">Made With ❤️ By @LearnerAFK</a></p>
+    <p align="center">Made With ❤️ By <a href="https://telegram.me/LearnerAFK">@LearnerAFK</a></p>
 </h2>
     
 <h3 align="center">

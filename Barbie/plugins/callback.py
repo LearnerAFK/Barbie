@@ -166,9 +166,7 @@ async def del_back_playlist(_, CallbackQuery):
                 return await CallbackQuery.message.reply_text(
                     "**ꜰᴀɪʟᴇᴅ ᴛᴏ sᴡɪᴛᴄʜ sᴛʀᴇᴀᴍ**\nᴘʟᴇᴀsᴇ ᴜsᴇ /skip ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʀᴀᴄᴋ ᴀɢᴀɪɴ."
                 )
-            await CallbackQuery.edit_message_text(
-                "» ꜱᴛʀᴇᴀᴍ ꜱᴋɪᴘᴘᴇᴅ ʙʏ {0}".format(mention)
-            )
+            await CallbackQuery.edit_message_text("» ꜱᴛʀᴇᴀᴍ ꜱᴋɪᴘᴘᴇᴅ ʙʏ {0}".format(mention))
             button = telegram_markup(chat_id)
             img = await gen_thumb(videoid)
             run = await CallbackQuery.message.reply_photo(

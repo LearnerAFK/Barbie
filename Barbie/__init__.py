@@ -10,13 +10,13 @@ from .platforms.Telegram import Telegram
 from .platforms.Spotify import Spotify
 
 
-__Version__ = "1.2.0"
+__Version__ = "0.1"
 
 boot = time.time()
 
 dirr()
 
-# git()
+git()
 
 dbb()
 

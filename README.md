@@ -1,3 +1,7 @@
+<h2>
+    MADE BY [@LearnerAFK](https://telegram.dog/LearnerAFK)
+</h2>
+    
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>

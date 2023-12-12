@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "900"))
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ExoticHero/Barbie")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/LearnerAFK/Barbie")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 

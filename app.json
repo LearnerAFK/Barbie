@@ -1,0 +1,74 @@
+{
+  "name": "Barbie",
+  "description": "A Telegram Management And Music Player Bot Written In Python Using Pyrogram",
+  "keywords": ["python3", "telegram", "bot", "MusicBot", "Barbie"],
+  "env": {
+    "API_ID": {
+      "description": "Get This Value From https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get This Value From https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot's Token From Telegram @botfather",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB": {
+      "description": "Get A Mongodb URL From https://cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "The User ID(s) Of USER(s) Whom You Would Like To Add As A OWNER. Multiple Values Shall Be Seperated With A Space",
+      "value": "5180447182 5825339458",
+      "required": true
+    },
+    "STRING1": {
+      "description": "A Pyrogram V2 String Session",
+      "value": "",
+      "required": true
+    },
+    "STRING2": {
+      "description": "A Pyrogram V2 String Session",
+      "value": "",
+      "required": false
+    },
+    "STRING3": {
+      "description": "A Pyrogram V2 String Session",
+      "value": "",
+      "required": false
+    },
+    "AUTO_LEAVING_ASSISTANT": {
+      "description": "Assistant Auto Group Leaving Mode Set It `True` If You Want To Make Your Assistant Leave Group Automatically",
+      "value": "True",
+      "required": false
+    },
+    "GIT_TOKEN": {
+      "description": "Git Token Of Your Github Account",
+      "value": "",
+      "required": false
+    },
+    "LOG_GROUP_ID": {
+      "description": "Your Log Group ID Add Your Bot And Promote As An Admin With Full Rights",
+      "value": "",
+      "required": false
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        }, 
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "stack": "container"
+}

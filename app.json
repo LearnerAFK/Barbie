@@ -13,6 +13,11 @@
       "value": "",
       "required": true
     },
+    "SUPPORT_CHANNEL": {
+      "description": "Fill telegram channel link here",
+      "value": "https://t.me/LearnerPrivate",
+      "required": true
+    },
     "BOT_TOKEN": {
       "description": "A Bot's Token From Telegram @botfather",
       "value": "",

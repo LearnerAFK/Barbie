@@ -16,14 +16,6 @@ from .ass_db import (
     get_client,
     group_assistant,
 )
-from .aud_vid_db import (
-    get_aud_bit_name,
-    get_audio_bitrate,
-    get_vid_bit_name,
-    get_video_bitrate,
-    save_audio_bitrate,
-    save_video_bitrate,
-)
 from .auth_db import (
     check_nonadmin_chat,
     is_nonadmin_chat,

@@ -16,7 +16,7 @@
     "SUPPORT_CHANNEL": {
       "description": "Fill telegram channel link here",
       "value": "https://t.me/LearnerPrivate",
-      "required": true
+      "required": false
     },
     "BOT_TOKEN": {
       "description": "A Bot's Token From Telegram @botfather",
@@ -26,7 +26,7 @@
     "SUPPORT_GROUP": {
       "description": "Fill your group's link if you have group",
       "value": "https://t.me/LearnerPrivate",
-      "required": true
+      "required": false
     },
     "MONGO_DB": {
       "description": "Get A Mongodb URL From https://cloud.mongodb.com",
@@ -35,7 +35,7 @@
     },
     "OWNER_ID": {
       "description": "The User ID(s) Of USER(s) Whom You Would Like To Add As A OWNER. Multiple Values Shall Be Seperated With A Space",
-      "value": "5180447182 5825339458",
+      "value": "",
       "required": true
     },
     "STRING1": {
@@ -66,7 +66,7 @@
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID Add Your Bot And Promote As An Admin With Full Rights",
       "value": "",
-      "required": false
+      "required": true
     }
   },
   "buildpacks": [

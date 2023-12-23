@@ -29,4 +29,3 @@ from .logger import play_logs
 from .pastebin import post, Pastebin
 from .sys import bot_sys_stats
 from .thumbnails import gen_thumb, changeImageSize
-from .quality import AudioQuality, VideoQuality
